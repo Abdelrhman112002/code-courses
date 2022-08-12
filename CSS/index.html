@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="Start Your Free Courses Now!">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <link rel="stylesheet" type="text/css" href="style-2.css">
+        <title>CSS | Code Courses</title>
+    </head>
+
+
+    <!-- Colors :
+    1 - 28BEB2
+    2- 00426E
+    3- 006C8D
+     -->
+
+    <body>
+        
+        <header>
+            <a href="../Home/index.html" title="Code Courses"><img class="logo" src="images/logo.svg" alt="logo"></a>
+            <nav class="navigation">
+                <a href="../Home/index.html">Home</a>
+                <a href="../HTML/index.html">HTML</a>
+                <a href="../CSS/index.html">CSS</a>
+                <a href="../p-h-p/index.html">PHP</a>
+            </nav>
+        </header>
+        
+        <section class="main" id="main">
+            <div>
+                <h2>
+                    Front End Language<br>
+                    <span>CSS</span>
+                </h2>
+                <h3>Cascading Style Sheets</h3>
+        </section>
+
+        <section class="cards" id="Courses">
+            <h2 class="title">What Is CSS?</h2>
+            <div class="content">
+                <div class="card">
+                    <div class="info">
+                        <p>
+                            <b>Cascading Style Sheets (CSS)</b> is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.[1] CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.[2]
+                            CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts.[3] This separation can improve content accessibility; provide more flexibility and control in the specification of presentation characteristics; enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file, which reduces complexity and repetition in the structural content; and enable the .css file to be cached to improve the page load speed between the pages that share the file and its formatting.
+                            Separation of formatting and content also makes it feasible to present the same markup page in different styles for different rendering methods, such as on-screen, in print, by voice (via speech-based browser or screen reader), and on Braille-based tactile devices. CSS also has rules for alternate formatting if the content is accessed on a mobile device.[4]
+                            The name cascading comes from the specified priority scheme to determine which style rule applies if more than one rule matches a particular element. This cascading priority scheme is predictable.
+                            The CSS specifications are maintained by the World Wide Web Consortium (W3C). Internet media type (MIME type) text/css is registered for use with CSS by RFC 2318 (March 1998). The W3C operates a free CSS validation service for CSS documents.[5]
+                            In addition to HTML, other markup languages support the use of CSS including XHTML, plain XML, SVG, and XUL.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cards" id="Courses">
+            <h2 class="title">Syntax</h2>
+            <div class="content">
+                <div class="card">
+                    <div class="info">
+                        <p>
+                            CSS has a simple syntax and uses a number of English keywords to specify the names of various style properties.
+                            A style sheet consists of a list of rules. Each rule or rule-set consists of one or more selectors, and a declaration block.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cards" id="Courses">
+            <h2 class="title">Selector</h2>
+            <div class="content">
+                <div class="card">
+                    <div class="info">
+                        <p>
+                            <ul>In CSS, selectors declare which part of the markup a style applies to by matching tags and attributes in the markup itself. Selectors may apply to the following:
+                                <li>all elements of a specific type, e.g. the second-level headers h2</li>
+                                <li>
+                                    <ul>elements specified by attribute, in particular:
+                                        <li>id: an identifier unique within the document, identified with a hash prefix e.g. #id</li>
+                                        <li>class: an identifier that can annotate multiple elements in a document, identified with a period prefix e.g. .classname</li>
+                                    </ul>
+                                </li>
+                                <li>elements depending on how they are placed relative to others in the document tree.</li>
+                                Classes and IDs are case-sensitive, start with letters, and can include alphanumeric characters, hyphens, and underscores. A class may apply to any number of instances of any elements. An ID may only be applied to a single element.
+                                Pseudo-classes are used in CSS selectors to permit formatting based on information that is not contained in the document tree. One example of a widely used pseudo-class is :hover, which identifies content only when the user "points to" the visible element, usually by holding the mouse cursor over it. It is appended to a selector as in a:hover or #elementid:hover. A pseudo-class classifies document elements, such as :link or :visited, whereas a pseudo-element makes a selection that may consist of partial elements, such as ::first-line or ::first-letter.[6]
+                                Selectors may be combined in many ways to achieve great specificity and flexibility.[7] Multiple selectors may be joined in a spaced list to specify elements by location, element type, id, class, or any combination thereof. The order of the selectors is important. For example, div .myClass {color: red;} applies to all elements of class myClass that are inside div elements, whereas .myClass div {color: red;} applies to all div elements that are inside elements of class myClass. This is not to be confused with concatenated identifiers such as div.myClass {color: red;} which applies to div elements of class myClass.
+                                The following table provides a summary of selector syntax indicating usage and the version of CSS that introduced it.
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cards" id="Courses">
+            <h2 class="title">Declaration block</h2>
+            <div class="content">
+                <div class="card">
+                    <div class="info">
+                        <p>
+                            A declaration block consists of a list of declarations in braces. Each declaration itself consists of a property, a colon (:), and a value. If there are multiple declarations in a block, a semi-colon (;) must be inserted to separate each declaration. An optional semi-colon after the last (or single) declaration may be used.[9]
+                            Properties are specified in the CSS standard. Each property has a set of possible values. Some properties can affect any type of element, and others apply only to particular groups of elements.[10][11]
+                            Values may be keywords, such as "center" or "inherit", or numerical values, such as 200px (200 pixels), 50vw (50 percent of the viewport width) or 80% (80 percent of the parent element's width). Color values can be specified with keywords (e.g. "red"), hexadecimal values (e.g. #FF0000, also abbreviated as #F00), RGB values on a 0 to 255 scale (e.g. rgb(255, 0, 0)), RGBA values that specify both color and alpha transparency (e.g. rgba(255, 0, 0, 0.8)), or HSL or HSLA values (e.g. hsl(000, 100%, 50%), hsla(000, 100%, 50%, 80%)).[
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cards" id="Courses">
+            <h2 class="title">Length units</h2>
+            <div class="content">
+                <div class="card">
+                    <div class="info">
+                        <p>
+                            Non-zero numeric values representing linear measures must include a length unit, which is either an alphabetic code or abbreviation, as in 200px or 50vw; or a percentage sign, as in 80%. Some units – cm (centimetre); in (inch); mm (millimetre); pc (pica); and pt (point) – are absolute, which means that the rendered dimension does not depend upon the structure of the page; others – em (em); ex (ex) and px (pixel)[clarification needed] – are relative, which means that factors such as the font size of a parent element can affect the rendered measurement. These eight units were a feature of CSS 1[13] and retained in all subsequent revisions. The proposed CSS Values and Units Module Level 3 will, if adopted as a W3C Recommendation, provide seven further length units: ch; Q; rem; vh; vmax; vmin; and vw.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cards" id="Courses">
+            <h2 class="title">Use Of CSS</h2>
+            <div class="content">
+                <div class="card">
+                    <div class="info">
+                        <p>
+                            Before CSS, nearly all presentational attributes of HTML documents were contained within the HTML markup. All font colors, background styles, element alignments, borders and sizes had to be explicitly described, often repeatedly, within the HTML. CSS lets authors move much of that information to another file, the style sheet, resulting in considerably simpler HTML.
+                            For example, headings (h1 elements), sub-headings (h2), sub-sub-headings (h3), etc., are defined structurally using HTML. In print and on the screen, choice of font, size, color and emphasis for these elements is presentational.
+                            Before CSS, document authors who wanted to assign such typographic characteristics to, say, all h2 headings had to repeat HTML presentational markup for each occurrence of that heading type. This made documents more complex, larger, and more error-prone and difficult to maintain. CSS allows the separation of presentation from structure. CSS can define color, font, text alignment, size, borders, spacing, layout and many other typographic characteristics, and can do so independently for on-screen and printed views. CSS also defines non-visual styles, such as reading speed and emphasis for aural text readers. The W3C has now deprecated the use of all presentational HTML markup.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+        
+        <footer class="footer">
+            <p class="footer-title">Copyrights @<span>Abdelrhman Mohamed</span><br>Code Courses 2022</p>
+        </footer>
+
+    </body>
+
+</html>
